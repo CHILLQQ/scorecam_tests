@@ -1,3 +1,4 @@
+from torch import nn
 class cells_net(nn.Module):
   def __init__(self):
     super(cells_net, self).__init__()
